@@ -11,12 +11,7 @@ export default function Viewer() {
       src={`/pdfs/${file}`}
       width="100%"
       height="100%"
-      style={{
-        position: "fixed",
-        top: 0,
-        left: 0,
-        border: "none"
-      }}
+      style={{ height: "100vh", border: "none" }}
     />
   );
 }
