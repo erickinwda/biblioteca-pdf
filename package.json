@@ -1,0 +1,7 @@
+{
+  "name": "biblioteca-pdf",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev"
+  }
+}
