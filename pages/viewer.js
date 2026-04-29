@@ -11,7 +11,7 @@ export default function Viewer() {
       src={`/pdfs/${file}`}
       width="100%"
       height="100%"
-      style={{ height: "100vh", border: "none" }}
+      style={{ border: "none", height: "100vh" }}
     />
   );
 }
