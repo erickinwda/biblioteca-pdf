@@ -5,7 +5,7 @@ const books = [
 
 export default function Home() {
   return (
-    <div>
+    <div style={{ padding: 40 }}>
       <h1>Biblioteca Premium</h1>
       {books.map((book, index) => (
         <div key={index}>
